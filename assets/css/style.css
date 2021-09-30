@@ -1,0 +1,324 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* ================ Colors ================ */
+
+:root {
+    --light-blue: #5BB3F4;
+    --light-blue2: #1B8FFF;
+    --dark: #1A194D;
+}
+
+/* Background Color */
+
+.bg-light-blue {
+    background-color: var(--light-blue) !important;
+}
+
+.bg-light-blue2 {
+    background-color: var(--light-blue2) !important;
+}
+
+/* Text-color */
+
+.text-dark {
+    color: var(--dark) !important;
+}
+
+.text-light-blue2 {
+    color: var(--light-blue2) !important;
+}
+
+/* ==================== Text Size ==================== */
+
+.text-6xl {
+    font-size: 32px !important;
+}
+
+h4, .h4 {
+    font-size: 18px !important;
+}
+
+h5, .h5 {
+    font-size: 15px !important;
+}
+
+@media (min-width: 576px) {
+    .text-6xl {
+        font-size: 40px !important;
+    }
+    h4, .h4 {
+        font-size: 20px !important;
+    }
+    h5, .h5 {
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-6xl {
+        font-size: 44px !important;
+    }
+    h4, .h4 {
+        font-size: 22px !important;
+    }
+    h5, .h5 {
+        font-size: 17px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-6xl {
+        font-size: 48px !important;
+    }
+    h4, .h4 {
+        font-size: 24px !important;
+    }
+    h5, .h5 {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-6xl {
+        font-size: 56px !important;
+    }
+    h5, .h5 {
+        font-size: 19px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .text-6xl {
+        font-size: 60px !important;
+    }
+    h5, .h5 {
+        font-size: 20px !important;
+    }
+}
+
+/* Font Weight */
+
+.font-weight-extrabold {
+    font-weight: 800;
+}
+
+.font-weight-semibold {
+    font-weight: 600;
+}
+
+.font-weight-medium {
+    font-weight: 500;
+}
+
+/* ========== Max Width ============ */
+
+.max-w-5xl {
+    max-width: 1120px;
+}
+
+@media (min-width: 1440px) {
+    .max-w-xl-616px {
+        max-width: 616px;
+    }
+}
+
+/* ========== Line Height ========== */
+
+.line-height-50 {
+    line-height: 50px !important;
+}
+
+@media (max-width: 576px) {
+    .line-height-50 {
+        line-height: 40px !important;
+    }
+}
+
+/* =============== Border Radius ============ */
+
+.rounded-xs {
+    border-radius: 2px;
+}
+
+/* ============= Shadow =============== */
+
+.shadow-blue {
+    box-shadow: 0px 10px 10px -5px rgba(91, 179, 244, 0.37);
+    -webkit-box-shadow: 0px 10px 10px -5px rgba(91, 179, 244, 0.37);
+    -moz-box-shadow: 0px 10px 10px -5px rgba(91, 179, 244, 0.37);
+}
+
+/* ============ Container  ============== */
+
+@media (min-width: 1620px) {
+    .container {
+        max-width: 1556px;
+    }
+}
+
+/* =============== Heros Section =============== */
+
+/* ---- Navbar ------ */
+
+.navbar .navbar-brand img {
+    width: 60px;
+}
+
+.navbar .nav-link {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 16px;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+}
+
+@media (min-width: 991px) {
+    .navbar .nav-item {
+        width: 100%;
+    }
+    .navbar .navbar-brand img {
+        width: 90px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar .nav-item {
+        width: 150px;
+    }
+    .navbar .navbar-brand img {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navbar .nav-item {
+        width: 180px;
+    }
+    .navbar .navbar-brand img {
+        width: 110px;
+    }
+}
+
+@media (min-width: 1620px) {
+    .navbar .nav-item {
+        width: 215px;
+    }
+    .navbar .navbar-brand img {
+        width: 132px;
+        height: 109px;
+    }
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    border-bottom: 3px solid #5BB3F4;
+}
+
+.nav-btn {
+    /* padding: 15px 80px !important; */
+    width: 100% !important;
+    font-weight: 700 !important;
+    border-radius: 2px;
+}
+
+.hero-bg {
+    background-image: url('../image/hero-bg.svg') !important;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.hero-content {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+@media (min-width:576px) {
+    .hero-content {
+        padding-top: 85px;
+        padding-bottom: 65px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-content {
+        padding-top: 100px;
+        padding-bottom: 85px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-content {
+        padding-top: 130px;
+        padding-bottom: 105px;
+    }
+}
+
+.hero-btn {
+    padding: 14px 64px;
+    border-radius: 2px;
+}
+
+/* =================== Introduction Section =================== */
+
+.intro-section {
+    background-image: url('../image/introduction-bg.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0px;
+}
+
+.intro-bar {
+    height: 5px;
+    width: 156px;
+    border-radius: 50px !important;
+    margin-bottom: 60px;
+}
+
+/* ========== What the tool offer section  =============== */
+
+.offer-section {
+    background-image: url('../image/offer-bg.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0px;
+}
+
+.offer-bar {
+    height: 5px;
+    width: 326px;
+    border-radius: 50px !important;
+    margin-bottom: 55px;
+}
+
+@media (max-width: 991px) {
+    .offer-bar {
+        width: 226px
+    }
+}
+
+@media (min-width: 991px) {
+    .offer-img {
+        min-width: 932px !important;
+    }
+}
+
+.offer-card {
+    padding: 20px 25px 25px 20px;
+}
+
+.offer-card-icon {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 575px) {
+    .offer-card {
+        padding: 12px;
+    }
+    .offer-card-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
