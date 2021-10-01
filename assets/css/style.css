@@ -70,7 +70,7 @@ h5, .h5 {
 
 @media (min-width: 992px) {
     .text-6xl {
-        font-size: 48px !important;
+        font-size: 44px !important;
     }
     h4, .h4 {
         font-size: 24px !important;
@@ -118,10 +118,8 @@ h5, .h5 {
     max-width: 1120px;
 }
 
-@media (min-width: 1440px) {
-    .max-w-xl-616px {
-        max-width: 616px;
-    }
+.max-w-616px {
+    max-width: 616px;
 }
 
 /* ========== Line Height ========== */
